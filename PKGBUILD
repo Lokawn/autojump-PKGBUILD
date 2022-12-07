@@ -15,7 +15,7 @@ license=('GPL3')
 depends=('python>=3.3')
 conflicts=('shonenjump')
 source=($pkgname-$pkgver.tar.gz::https://github.com/wting/$pkgname/archive/release-v$pkgver.tar.gz)
-sha256sums=('00daf3698e17ac3ac788d529877c03ee80c3790472a85d0ed063ac3a354c37b1')
+sha512sums=('d1dd3cbb67fda4e0a17ec5028b947faf46be8a95a6cd8418127b927f42bc95b71538a06658b38b479c77d147a6cd5e8cef77639ef538c7d449414c469c13f140')
 install=readme.install
 
 prepare() {
